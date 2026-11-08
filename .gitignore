@@ -8,6 +8,9 @@
 /data/
 /.tools/
 /models/cache/
+/tools/
+/models/licenses/pyannote-segmentation-LICENSE.txt
+/models/licenses/wespeaker-voxceleb-cc-by-4.0.md
 
 # Keep only the public submission documents; ignore internal project notes.
 /docs/*
