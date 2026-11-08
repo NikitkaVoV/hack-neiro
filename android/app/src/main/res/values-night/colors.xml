@@ -1,0 +1,11 @@
+<resources>
+    <color name="app_background">#18181B</color>
+    <color name="bench_background">#17191E</color>
+    <color name="bench_surface">#242730</color>
+    <color name="bench_text_primary">#F1F3F6</color>
+    <color name="bench_text_secondary">#B7C0CB</color>
+    <color name="bench_accent">#AAB8FF</color>
+    <color name="bench_progress_track">#454A56</color>
+    <color name="bench_error">#FF958A</color>
+    <bool name="light_system_bars">false</bool>
+</resources>

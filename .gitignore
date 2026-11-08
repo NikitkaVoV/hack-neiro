@@ -1,0 +1,82 @@
+# Private working notes, research runs and source audio remain local.
+/AGENTS.md
+/DEVELOPMENT_PLAN.md
+/ENGINE_AND_EVALUATION_PLAN.md
+/.cursor/
+/tmp/
+/runs/
+/data/
+/.tools/
+/models/cache/
+
+# Keep only the public submission documents; ignore internal project notes.
+/docs/*
+!/docs/ARCHITECTURE.md
+!/docs/INSTALL_AND_USAGE.md
+!/docs/LIMITATIONS.md
+!/docs/TEST_RESULTS.md
+!/docs/TEST_RESULTS.csv
+
+# Keep generated APKs and historical experiments out of Git.
+/artifacts/*
+
+# Local Android SDK, Gradle outputs and downloaded model/runtime payloads.
+/android/local.properties
+/android/.gradle/
+/android/.kotlin/
+/android/**/build/
+/android/app/libs/
+/android/app/src/bench/assets/models/
+/android/app/src/bench/
+/android/app/src/main/assets/models/
+/android/app/src/modelAssets/
+/android/app/src/mnnPrototype/assets/models/
+/android/app/src/mnnPrototype/
+/android/app/src/mnnPrototypeNemotron/assets/models/
+/android/app/src/mnnPrototypeNemotron/
+/android/app/src/mnnPrototype/jniLibs/
+/android/app/src/androidTest/jniLibs/
+
+# Tool environments, caches, editor data and temporary outputs.
+**/.idea/
+**/.vscode/
+**/__pycache__/
+**/.pytest_cache/
+**/.venv*/
+**/node_modules/
+*.py[cod]
+*.log
+*.part
+*.tail
+*.assembled
+*.idsig
+
+# Credentials and local-only configuration.
+.env
+.env.*
+!.env.example
+*.jks
+*.keystore
+*.pem
+*.key
+
+# Models, media, archives, and installable packages are distributed separately.
+*.apk
+*.aab
+*.aar
+*.onnx
+*.mnn
+*.safetensors
+*.wav
+*.flac
+*.mp3
+*.m4a
+*.mp4
+*.webm
+*.zip
+*.tar
+*.tar.gz
+*.tar.bz2
+*.7z
+Thumbs.db
+.DS_Store

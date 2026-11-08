@@ -1,0 +1,4 @@
+case,variant,audio_seconds,reference_words,word_errors,wer,punctuation_f1,reference_speakers,hypothesis_speakers,der,jer,evidence,status
+production_release_ruslan_smoke,productionRelease GigaAMv3+NemotronInt8,10.743,17,0,0.0000,0.5714,1,1,,,UI inference + local JSON export,SMOKE_PASS
+frozen_nemotron_dialogs_dev,bench frozen Nemotron INT8,47.075,93,4,0.0430,0.6667,3,2,0.34971,0.53686,T26 frozen-model scorer,KNOWN_DIARIZATION_MERGE
+frozen_nemotron_ami_es2004a,bench frozen Nemotron INT8,1049,,,,,4,9,0.30484,0.34158,T30 official DER/JER scorer,HISTORICAL_MODEL_EVAL

@@ -1,0 +1,12 @@
+<resources>
+    <color name="brand_apricot">#E7A07B</color>
+    <color name="app_background">#FAF8F5</color>
+    <color name="bench_background">#F5F4F1</color>
+    <color name="bench_surface">#FFFFFF</color>
+    <color name="bench_text_primary">#20252B</color>
+    <color name="bench_text_secondary">#59636F</color>
+    <color name="bench_accent">#445CBD</color>
+    <color name="bench_progress_track">#D7DCE5</color>
+    <color name="bench_error">#B34338</color>
+    <bool name="light_system_bars">true</bool>
+</resources>

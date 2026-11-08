@@ -1,0 +1,10 @@
+<resources><style name="AppTheme" parent="android:style/Theme.Material.Light.NoActionBar">
+    <item name="android:windowBackground">@drawable/launch_background</item>
+    <item name="android:colorAccent">@color/brand_apricot</item>
+    <item name="android:windowLightStatusBar">@bool/light_system_bars</item>
+    <item name="android:windowLightNavigationBar">@bool/light_system_bars</item>
+    <item name="android:statusBarColor">@color/app_background</item>
+    <item name="android:navigationBarColor">@color/app_background</item>
+    <item name="android:windowActionModeOverlay">true</item>
+    <item name="android:fontFamily">sans</item>
+</style></resources>
