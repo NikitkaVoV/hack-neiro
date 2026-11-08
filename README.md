@@ -10,7 +10,7 @@
 
 ## Материалы сдачи
 
-1. **APK:** [GitHub Release v0.1.0](https://github.com/NikitkaVoV/hack-neiro/releases/tag/v0.1.0), asset `default.apk`; локальная копия `artifacts/Мой стенограф.apk` (295 086 561 байт). SHA-256: `61021a5cc3dff79511993de281bea7dd41e94e62fa6e7a5d6348801f0e8f0ce8`.
+1. **APK:** [GitHub Release v0.1.0](https://github.com/NikitkaVoV/hack-neiro/releases/tag/v0.1.0), asset `default.apk`.
 2. **Исходный код:** Android Gradle-проект в `android/`; краткий указатель — [`src/README.md`](src/README.md).
 3. **Установка и использование:** [`docs/INSTALL_AND_USAGE.md`](docs/INSTALL_AND_USAGE.md).
 4. **Архитектура и модели:** [`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md), [`models/README.md`](models/README.md).
