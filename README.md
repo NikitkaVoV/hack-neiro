@@ -1,16 +1,22 @@
 # Мой стенограф
 
+**Скачать приложение:** [GitHub Release v0.1.0](https://github.com/NikitkaVoV/hack-neiro/releases/tag/v0.1.0) — APK для Android 11+ (ARM64). Имя файла в релизе: `default.apk`.
+
+**Видеодемонстрация:** [Смотреть или скачать MP4](artifacts/Видеодемонстрация.mp4).
+
+**Обработка локальная:** распознавание речи и определение говорящих выполняются на Android-устройстве.
+
 Локальное Android-приложение для записи и расшифровки русской речи. Аудио, текст и определение говорящих обрабатываются на телефоне; данные не отправляются в облачный сервис.
 
 ## Материалы сдачи
 
-1. **APK:** `Мой стенограф.apk` — передаётся отдельно. Локальная копия находится в `artifacts/`, GitHub её не хранит из-за размера (295 086 561 байт). SHA-256: `61021a5cc3dff79511993de281bea7dd41e94e62fa6e7a5d6348801f0e8f0ce8`.
+1. **APK:** [GitHub Release v0.1.0](https://github.com/NikitkaVoV/hack-neiro/releases/tag/v0.1.0), asset `default.apk`; локальная копия `artifacts/Мой стенограф.apk` (295 086 561 байт). SHA-256: `61021a5cc3dff79511993de281bea7dd41e94e62fa6e7a5d6348801f0e8f0ce8`.
 2. **Исходный код:** Android Gradle-проект в `android/`; краткий указатель — [`src/README.md`](src/README.md).
 3. **Установка и использование:** [`docs/INSTALL_AND_USAGE.md`](docs/INSTALL_AND_USAGE.md).
 4. **Архитектура и модели:** [`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md), [`models/README.md`](models/README.md).
 5. **Ограничения:** [`docs/LIMITATIONS.md`](docs/LIMITATIONS.md).
 6. **Результаты тестов:** [`docs/TEST_RESULTS.md`](docs/TEST_RESULTS.md), [`docs/TEST_RESULTS.csv`](docs/TEST_RESULTS.csv).
-7. **Видеодемонстрация:** видеофайл в рабочей папке не найден; его нужно приложить отдельно после записи.
+7. **Видеодемонстрация:** [`artifacts/Видеодемонстрация.mp4`](artifacts/Видеодемонстрация.mp4).
 
 ## Состав
 

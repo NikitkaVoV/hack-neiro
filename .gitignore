@@ -81,5 +81,6 @@
 *.tar.gz
 *.tar.bz2
 *.7z
+!/artifacts/Видеодемонстрация.mp4
 Thumbs.db
 .DS_Store
